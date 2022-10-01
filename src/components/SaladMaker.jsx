@@ -1,5 +1,5 @@
-import React from "react";
 import { createUseStyles } from "react-jss";
+import SaladBuilder from "../SaladBuilder/SaladBuilder";
 
 const useStyles = createUseStyles({
   wrapper: {
@@ -10,7 +10,7 @@ const useStyles = createUseStyles({
 export default function SaladMaker() {
   const classes = useStyles();
   return (
-    <>
+    <div>
       <h1 className={classes.wrapper}>
         <span role="img" aria-label="salad">
           🥗{" "}
@@ -21,6 +21,7 @@ export default function SaladMaker() {
           🥗
         </span>
       </h1>
-    </>
+      <SaladBuilder />
+    </div>
   );
 }
