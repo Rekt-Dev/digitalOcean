@@ -4,7 +4,7 @@ import { createUseStyles } from "react-jss";
 const useStyles = createUseStyles({
   wrapper: {
     borderBottom: "black solid 1px",
-    padding: [15, 10],
+    padding: [17, 11],
     textAlign: "right",
   },
 });
