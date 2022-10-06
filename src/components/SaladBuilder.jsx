@@ -15,7 +15,7 @@ const useStyles = createUseStyles({
 const ingredients = [
   {
     image: "🍎",
-    name: "apple",
+    name: "applle",
   },
   {
     image: "🥑",
